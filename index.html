@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Javascript Calculator</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<section id="calc_wrapper">			
+			<h4>Calculator</h4>
+			<div class="calcDisplay">				
+				<p id="operation_display"></p>
+				<p id="answer"></p>
+			</div>
+			<div class="calculator">
+				<div id="inputs">
+					<span class="input calc_num">
+						<span>7</span>
+					</span>
+					<span class="input calc_num">
+						<span>8</span>
+					</span>
+					<span class="input calc_num">
+						<span>9</span>
+					</span>
+					<span class="input calc_num">
+						<span>4</span>
+					</span>
+					<span class="input calc_num">
+						<span>5</span>
+					</span>
+					<span class="input calc_num">
+						<span>6</span>
+					</span>
+					<span class="input calc_num">
+						<span>1</span>
+					</span>
+					<span class="input calc_num">
+						<span>2</span>
+					</span>
+					<span class="input calc_num">
+						<span>3</span>
+					</span>
+					<span class="input calc_num">
+						<span>0</span>
+					</span>
+					<span class="input calc_num">
+						<span>&nbsp;</span>
+					</span>
+					<span class="input calc_num">
+						<span>.</span>
+					</span>
+					<span class="enter">
+						<span>=</span>					
+					</span>
+				</div>
+				<div id="operations">
+					<span class="clear">
+						<span>C</span>
+					</span>
+					<span class="input operand">
+						<span data-operand="*">&times;</span>
+					</span>
+					<span class="input operand">
+						<span data-operand="/">&divide;</span>
+					</span>
+					<span class="input operand">
+						<span data-operand="+">&plus;</span>
+					</span>
+					<span class="input operand">
+						<span data-operand="-">&minus;</span>
+					</span>
+				</div>
+				<div style="clear:both;"></div>
+			</div>			
+		</section>
+		<script src="calculator-compiled.js"></script>
+	</body>
+</html>
