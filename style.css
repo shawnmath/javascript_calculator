@@ -82,7 +82,14 @@ h4 {
 	text-align: center;
 	background-color: #141e3d;	
 	color: #bbc0ce;
-	cursor: pointer;	
+	cursor: pointer;
+	transition: background-color 0.5s ease;	
+}
+
+.input:hover,
+.enter:hover,
+.clear:hover {
+	background-color: #405577;
 }
 
 .calc_num, 
